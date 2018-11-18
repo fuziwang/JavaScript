@@ -92,10 +92,10 @@ console.log("a:", a); //报错，局部变量
 
 程序中不会被认为代码执行的内容，通常用于对代码进行解释提高代码可读性
 
-+ 单行注释 `//` 可以嵌套//  或  `/*..*/`
++ 单行注释 `//` 可以嵌套//  或  `/*..*/`
 
 
-+ 多行注释 `/* */`  不可以进行嵌套`/*...*/` 可以嵌套//
++ 多行注释 `/* */`  不可以进行嵌套`/*...*/` 可以嵌套//
 
 ### JavaScript变量
 
@@ -148,7 +148,7 @@ JavaScript（ES5）数据类型（6种）及其划分（2类）
 
 + 引用（对象）类型（Object（Array、Function、Date、Error等））
 
-![JavaScript-basic](images/01.png)                    
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181118190258717.png)            
 
 #### 数据类型检测方法（typeof、instanceof）
 
@@ -209,7 +209,7 @@ console.log(c instanceof Object); //true
 
 **栈区常用来存储函数局部临时变量，一般数据量较小，堆区常用来存储更为复杂的数据结构的对象**
 
-![](images/02.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181118190345752.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Z1eml3YW5n,size_16,color_FFFFFF,t_70)
 
 ```javascript
 //基本数据类型和引用数据类型的内存分配不同
@@ -425,17 +425,17 @@ console.log(a); //undefined
 
   + 转换方式 `Boolean() value?true：false !!value`   
 
-![](images/03.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181118190402489.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Z1eml3YW5n,size_16,color_FFFFFF,t_70)
 
 + 其他类型转换为Number类型
   + 转换方式 `Number() +value parseFloat parseInt`
 
-![](images/04.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181118190412306.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Z1eml3YW5n,size_16,color_FFFFFF,t_70)
 
 + 其他类型转换为String类型
   + 转换方式 `String() ''+value value.toString();`
 
-![](images/05.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181118190422781.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Z1eml3YW5n,size_16,color_FFFFFF,t_70)
 
 ```javascript
 //其他类型转换为boolean类型 使用Boolean()函数
@@ -477,12 +477,12 @@ console.log(String(234));// 234
 console.log(String({ x: 1, y: 2 }));// [object] [Object]
 ```
 
-![](images/06.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181118190436920.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Z1eml3YW5n,size_16,color_FFFFFF,t_70)
 
 + 隐式类型转换
   + 使用关系运算符时的转换（==、>、<、引用类型和基本类型比较时）
-  + 使用算数运算符时的转换（'img'+ 3 + '.jpg';  “25”-0;）
-  + 使用逻辑运算符时的转换（  !!0;  ）
+  + 使用算数运算符时的转换（'img'+ 3 + '.jpg';  “25”-0;）
+  + 使用逻辑运算符时的转换（  !!0;  ）
   + 执行流程语句时的转换（if(obj){...}）
 
 ```javascript
