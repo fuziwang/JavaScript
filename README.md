@@ -18,7 +18,7 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
 
 ## JavaScript项目demo
 
-+ 2048游戏开发
++ [2048游戏开发](https://github.com/fuziwang/JavaScript/tree/master/src/2048)
 
 ## 联系我
 
