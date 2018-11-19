@@ -16,9 +16,9 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
   + [JavaScript数据类型](https://github.com/fuziwang/JavaScript/blob/master/docs/02%20JavaScript%20basic.md#js%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)：JavaScript数据类型分类、数据类型检测方法`(typeof、instanceof)`、基本类型与引用类型的区别、基本数据类型的值、数据类型转换
   + [JavaScript包装对象](https://github.com/fuziwang/JavaScript/blob/master/docs/02%20JavaScript%20basic.md#%E5%8C%85%E8%A3%85%E5%AF%B9%E8%B1%A1)
 
-## JavaScript学习demo
+## JavaScript项目demo
 
-
++ 2048游戏开发
 
 ## 联系我
 
