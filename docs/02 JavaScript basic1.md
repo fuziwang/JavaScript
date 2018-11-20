@@ -139,6 +139,8 @@ f(1, 2, 3);
 
 ### JS的数据类型
 
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181120093342532.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Z1eml3YW5n,size_16,color_FFFFFF,t_70)
+
 #### JavaScript数据类型分类
 
 JavaScript（ES5）数据类型（6种）及其划分（2类）

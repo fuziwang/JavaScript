@@ -15,6 +15,7 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
   + [JavaScript变量](https://github.com/fuziwang/JavaScript/blob/master/docs/02%20JavaScript%20basic.md#javascript%E5%8F%98%E9%87%8F)：JavaScript标识符、字面量、保留字
   + [JavaScript数据类型](https://github.com/fuziwang/JavaScript/blob/master/docs/02%20JavaScript%20basic.md#js%E7%9A%84%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B)：JavaScript数据类型分类、数据类型检测方法`(typeof、instanceof)`、基本类型与引用类型的区别、基本数据类型的值、数据类型转换
   + [JavaScript包装对象](https://github.com/fuziwang/JavaScript/blob/master/docs/02%20JavaScript%20basic.md#%E5%8C%85%E8%A3%85%E5%AF%B9%E8%B1%A1)
+  + 补充：基本数据类型进阶 - Number类型和String类型（方法、属性）
 
 ## JavaScript项目demo
 
