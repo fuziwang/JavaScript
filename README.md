@@ -17,9 +17,16 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
   + [JavaScript包装对象](https://github.com/fuziwang/JavaScript/blob/master/docs/02%20JavaScript%20basic.md#%E5%8C%85%E8%A3%85%E5%AF%B9%E8%B1%A1)
   + 补充：[基本数据类型进阶](https://github.com/fuziwang/JavaScript/blob/master/docs/Basic-DateType-advanced.md) - Number类型和String类型（方法、属性）
 
+
++ JavaScript基础语法（二）
+  + JavaScript运算符：赋值运算符、算术运算符、逻辑运算符（短路原则）、关系运算符、特殊运算符
+  + JavaScript流程控制结构：选择和分支语句、循环语句、break和continue语句
+  + JavaScript严格模式：严格模式的使用方法、严格模式下语法和行为的改变
+
 ## JavaScript项目demo
 
 + [2048游戏开发](https://github.com/fuziwang/JavaScript/tree/master/src/2048)
++ [五子棋游戏开发](https://github.com/fuziwang/JavaScript/tree/master/src/%E4%BA%94%E5%AD%90%E6%A3%8B)
 
 ## 联系我
 
