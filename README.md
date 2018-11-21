@@ -19,9 +19,9 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
 
 
 + JavaScript基础语法（二）
-  + JavaScript运算符：赋值运算符、算术运算符、逻辑运算符（短路原则）、关系运算符、特殊运算符
-  + JavaScript流程控制结构：选择和分支语句、循环语句、break和continue语句
-  + JavaScript严格模式：严格模式的使用方法、严格模式下语法和行为的改变
+  + [JavaScript运算符](https://github.com/fuziwang/JavaScript/blob/master/docs/03%20JavaScript%20basic2.md#javascript%E8%BF%90%E7%AE%97%E7%AC%A6)：赋值运算符、算术运算符、逻辑运算符（短路原则）、关系运算符、特殊运算符
+  + [JavaScript流程控制结构](https://github.com/fuziwang/JavaScript/blob/master/docs/03%20JavaScript%20basic2.md#javascript%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84)：选择和分支语句、循环语句、break和continue语句
+  + [JavaScript严格模式](https://github.com/fuziwang/JavaScript/blob/master/docs/03%20JavaScript%20basic2.md#js%E4%B8%A5%E6%A0%BC%E6%A8%A1%E5%BC%8F)：严格模式的使用方法、严格模式下语法和行为的改变
 
 ## JavaScript项目demo
 
