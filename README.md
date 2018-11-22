@@ -25,10 +25,10 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
 
 
 + JavaScript函数
-  + JavaScript函数的定义和调用：函数简介、函数的三要素、函数的定义、函数的调用
-  + JavaScript函数的参数和返回值：函数的参数的数量问题、参数类型与传递方式（值、引用）、函数的返回值
-  + JavaScript函数对象：函数对象的基本概念、函数对象的属性、函数对象的方法
-  + JavaScript高阶函数
+  + [JavaScript函数的定义和调用](https://github.com/fuziwang/JavaScript/blob/master/docs/04%20JavaScript%20function.md#%E5%87%BD%E6%95%B0%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E8%B0%83%E7%94%A8)：函数简介、函数的三要素、函数的定义、函数的调用
+  + [JavaScript函数的参数和返回值](https://github.com/fuziwang/JavaScript/blob/master/docs/04%20JavaScript%20function.md#%E5%87%BD%E6%95%B0%E7%9A%84%E5%8F%82%E6%95%B0%E5%92%8C%E8%BF%94%E5%9B%9E%E5%80%BC)：函数的参数的数量问题、参数类型与传递方式（值、引用）、函数的返回值
+  + [JavaScript函数对象](https://github.com/fuziwang/JavaScript/blob/master/docs/04%20JavaScript%20function.md#%E5%87%BD%E6%95%B0%E5%AF%B9%E8%B1%A1)：函数对象的基本概念、函数对象的属性、函数对象的方法
+  + [JavaScript高阶函数](https://github.com/fuziwang/JavaScript/blob/master/docs/04%20JavaScript%20function.md#%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0)
 
 ## JavaScript项目demo
 
