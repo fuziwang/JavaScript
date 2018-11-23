@@ -1,3 +1,6 @@
+/**
+ * create by fuziwang 2018/11/23
+ */
 // 模块化开发
 var json = {
     flag:false,

@@ -1,0 +1,58 @@
+/**
+ * create by fuziwang 2018/11/23
+ */
+*{
+    padding:0px;
+    margin:0px;
+}
+ul,li{
+    list-style: none;
+}
+.itemarea{
+    width:350px;
+    height: 426px;
+    border:1px #888 solid;
+    margin:20px;
+    position: relative;
+}
+.itemarea .pic img{
+    width:350px;
+    height: 350px;
+}
+.itemarea .pic{
+    margin-bottom:10px;
+}
+.itemarea .pic .cover{
+    display:none;
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:100px;
+    height: 100px;
+    background-color: rgba(255,239,167,0.6);
+}
+.itemarea ul{
+    display: flex;
+}
+.itemarea ul li{
+    margin:auto;
+}
+.itemarea ul li img{
+    width: 54px;
+    height: 54px;
+    display: block;/*3px问题 图片是行内元素 所以就有基准线类似于文本就会有3px的问题 改成块级问题*/
+}
+.itemarea .detail{
+    position: absolute;
+    display: none;
+    top:-1px;
+    left:350px;
+    width:350px;
+    height: 350px;
+    border:1px #888 solid;
+    background-image: url(../images/01.jpg);
+    background-size:350%;
+}
+.itemarea ul .current{
+    border:2px rgb(229,62,65) solid;
+}

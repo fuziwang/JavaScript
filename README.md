@@ -34,6 +34,7 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
 
 + [2048游戏开发](https://github.com/fuziwang/JavaScript/tree/master/src/2048)
 + [五子棋游戏开发](https://github.com/fuziwang/JavaScript/tree/master/src/%E4%BA%94%E5%AD%90%E6%A3%8B)
++ 淘宝京东商品放大效果
 
 ## 联系我
 
