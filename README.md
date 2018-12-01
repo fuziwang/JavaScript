@@ -20,7 +20,7 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
 
 + JavaScript基础语法（二）
   + [JavaScript运算符](https://github.com/fuziwang/JavaScript/blob/master/docs/03%20JavaScript%20basic2.md#javascript%E8%BF%90%E7%AE%97%E7%AC%A6)：赋值运算符、算术运算符、逻辑运算符（短路原则）、关系运算符、特殊运算符
-  + [JavaScript流程控制结构](https://github.com/fuziwang/JavaScript/blob/master/docs/03%20JavaScript%20basic2.md#javascript%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84)：选择和分支语句、循环语句、break和continue语句
+  + [JavaScript流程控制结构](https://github.com/fuziwang/JavaScript/blob/master/docs/03%20JavaScript%20basic2.md#javascript%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6%E7%BB%93%E6%9E%84)：选择和分支语句、循环语句、`break`和`continue`语句
   + [JavaScript严格模式](https://github.com/fuziwang/JavaScript/blob/master/docs/03%20JavaScript%20basic2.md#js%E4%B8%A5%E6%A0%BC%E6%A8%A1%E5%BC%8F)：严格模式的使用方法、严格模式下语法和行为的改变
 
 
@@ -29,6 +29,15 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
   + [JavaScript函数的参数和返回值](https://github.com/fuziwang/JavaScript/blob/master/docs/04%20JavaScript%20function.md#%E5%87%BD%E6%95%B0%E7%9A%84%E5%8F%82%E6%95%B0%E5%92%8C%E8%BF%94%E5%9B%9E%E5%80%BC)：函数的参数的数量问题、参数类型与传递方式（值、引用）、函数的返回值
   + [JavaScript函数对象](https://github.com/fuziwang/JavaScript/blob/master/docs/04%20JavaScript%20function.md#%E5%87%BD%E6%95%B0%E5%AF%B9%E8%B1%A1)：函数对象的基本概念、函数对象的属性、函数对象的方法
   + [JavaScript高阶函数](https://github.com/fuziwang/JavaScript/blob/master/docs/04%20JavaScript%20function.md#%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0)
+
+
++ JavaScript闭包
+  + [JavaScript预解析](https://github.com/fuziwang/JavaScript/blob/master/docs/05%20JavaScript%20closure.md#javascript%E9%A2%84%E8%A7%A3%E6%9E%90)：JS的解析和执行过程、预解析主要工作（变量声明和函数声明提升）、预解析与作用域（静态词法作用域）
+  + [JavaScript作用域及其特点](https://github.com/fuziwang/JavaScript/blob/master/docs/05%20JavaScript%20closure.md#js%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%8F%8A%E5%85%B6%E7%89%B9%E7%82%B9)：JS作用域、JS作用域的特点
+  + [JavaScript执行上下文和调用栈](https://github.com/fuziwang/JavaScript/blob/master/docs/05%20JavaScript%20closure.md#js%E6%89%A7%E8%A1%8C%E4%B8%8A%E4%B8%8B%E6%96%87%E4%B8%8E%E8%B0%83%E7%94%A8%E6%A0%88call-stack)：理解执行上下文、作用域链域执行上下文、调用栈（`Call Stack`）
+  + [立即执行表达式](https://github.com/fuziwang/JavaScript/blob/master/docs/05%20JavaScript%20closure.md#js%E7%9A%84%E7%AB%8B%E5%8D%B3%E6%89%A7%E8%A1%8C%E8%A1%A8%E8%BE%BE%E5%BC%8Fiife)：`IIFE`基本概念、通过`IIFE`解决的两类问题、实际应用案例
+  + [闭包](https://github.com/fuziwang/JavaScript/blob/master/docs/05%20JavaScript%20closure.md#js%E9%97%AD%E5%8C%85)：闭包的概念、闭包的常见形式、闭包的作用及应用场景
+
 
 ## JavaScript项目demo
 
