@@ -44,6 +44,7 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
 + [2048游戏开发](https://github.com/fuziwang/JavaScript/tree/master/src/2048)
 + [五子棋游戏开发](https://github.com/fuziwang/JavaScript/tree/master/src/%E4%BA%94%E5%AD%90%E6%A3%8B)
 + [淘宝京东商品放大效果](https://github.com/fuziwang/JavaScript/tree/master/src/%E6%B7%98%E5%AE%9D%E6%94%BE%E5%A4%A7)
++ [用户支付页面（DOM操作）](https://github.com/fuziwang/JavaScript/tree/master/src/user-money)
 
 ## 联系我
 
