@@ -51,7 +51,7 @@ man.descirbe();
 1. 构造器函数对象（类对象）--类似于String、Number、Boolean等构造函数
 2. 非构造器对象—类似于Math、Json等非构造函数、
 
-![](images/01.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181204204305421.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Z1eml3YW5n,size_16,color_FFFFFF,t_70)
 
 ```javascript
 /* 使用构造器的方式相应的创建相应的对象 */
@@ -110,7 +110,7 @@ console.log(o.x,o._x);// 调用set方法 访问_x属性值 2 2
 
 + 上述代码中如果将`get x()`改为
 
-![](images/02.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181204204317408.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Z1eml3YW5n,size_16,color_FFFFFF,t_70)
 
 则会出现错误，由于`get x()`方法的优先级要高于`x`属性，因此会一直调用`get x()`方法，出现递归执行的错误。
 
@@ -302,7 +302,7 @@ for (var i = 0; i < 10; i++) {
 
 **问题：为什么原型链上有些属性遍历不到**
 
-![](images/03.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181204204334949.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Z1eml3YW5n,size_16,color_FFFFFF,t_70)
 
 上述的代码中，在obj2上添加了y和z两个属性，同时obj1也有x这个属性，在obj2的原型链上有toString这个属性，但是通过for in的方式只能访问到x，y，z这三个属性，为什么访问不到原型链上的有些属性呢？
 
@@ -541,7 +541,7 @@ Object.defineProperties(obj, {
   + `Object.keys()` 返回所有自有（非继承）可枚举属性的键
   + `Object.getOwnPropertyNames()`返回所有自有（非继承）键，包括不可枚举
 
-![](images/04.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181204204401821.png)
 
 + `Object.prototype.hasOwnProperty(...)` 可结合Object.keys一起使用
 
@@ -558,10 +558,10 @@ obj2.propertyIsEnumerable("x");// false
 ```
 
 + `in`  `for...in` (两者关于`enumerable`的区别）
-  + `in` 检测一个对象是否有某个属性，包括继承的属性，包括不可枚举的属性
+  + `in` 检测一个对象是否有某个属性，包括继承的属性，包括不可枚举的属性
   + `for...in` 遍历一个对象的属性，包括继承的属性，但不包括不可枚举的属性
 
-![](images/05.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181204204410924.png)
 
 #### JS 对象之扩展、密封及冻结（级别逐渐升高）
 
@@ -607,7 +607,7 @@ console.log(Object.isExtensible(empty)); //false
 
 （3）使用传统的方式给不可扩展对象添加属性，会静默失败，不抛出异常；在严格模式中,为不可扩展对象添加属性将抛出错误；使用 `Object.defineProperty`方法为不可扩展对象添加新属性会抛出异常
 
-![](images/06.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181204204421705.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Z1eml3YW5n,size_16,color_FFFFFF,t_70)
 
 + `seal`（Object.isSealed()、Object.seal( )）在extend的限制基础上，增加限制可配置属性特性
 
@@ -629,11 +629,11 @@ console.log(Object.isSealed(obj)); //true
 
 （2）密封的对象仍然可以修改原先的属性值，但不能把密封对象的属性进行重新配置,譬如将数据属性重定义成访问器属性.
 
-![](images/07.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20181204204433166.png)
 
 （3）使用传统的方式给密封对象添加属性或删除属性，会静默失败，不抛出异常；在严格模式中，为密封对象添加属性或删除属性将抛出错误；使用 `Object.defineProperty`方法为密封对象添加新属性会抛出异常
 
-![](images/08.png)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2018120420444075.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Z1eml3YW5n,size_16,color_FFFFFF,t_70)
 
 + `freeze`（Object.isFrozen()、Object.freeze( )）在seal的限制基础上，增加限制可写属性特性
 
@@ -663,5 +663,4 @@ console.log(Object.isFrozen(obj)); //true
 
 + 使用 Object.defineProperty方法为密封对象添加新属性会抛出异常
 
-![](images/09.png)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/2018120420444828.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Z1eml3YW5n,size_16,color_FFFFFF,t_70)
