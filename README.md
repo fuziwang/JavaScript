@@ -39,6 +39,21 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
   + [闭包](https://github.com/fuziwang/JavaScript/blob/master/docs/05%20JavaScript%20closure.md#js%E9%97%AD%E5%8C%85)：闭包的概念、闭包的常见形式、闭包的作用及应用场景
 
 
++ JavaScript对象
+  + [JS对象简介](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#js%E5%AF%B9%E8%B1%A1%E7%AE%80%E4%BB%8B)：对象的定义、对象分类
+  + [JS对象的属性](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#js%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%B1%9E%E6%80%A7)：对象属性的分类、对象访问器属性实例
+  + [对象相关操作](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#js%E5%AF%B9%E8%B1%A1%E7%9B%B8%E5%85%B3%E6%93%8D%E4%BD%9C)：创建对象的三种方式、对象属性的增删改查
+  + [对象属性特性简介](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E7%89%B9%E6%80%A7%E7%AE%80%E4%BB%8B)
+  + [对象属性（数据属性）的特性](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E6%95%B0%E6%8D%AE%E5%B1%9E%E6%80%A7%E7%9A%84%E7%89%B9%E6%80%A7)：对象属性（数据属性）的特性、给对象添加属性
+  + [对象访问器（访问器属性）的特性](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#%E5%AF%B9%E8%B1%A1%E8%AE%BF%E9%97%AE%E5%99%A8%E8%AE%BF%E9%97%AE%E5%99%A8%E5%B1%9E%E6%80%A7%E7%9A%84%E7%89%B9%E6%80%A7)：对象访问器（访问器属性）的特性、综合实例
+  + [属性特性描述符以及属性特性补充部分](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#%E5%B1%9E%E6%80%A7%E7%89%B9%E6%80%A7%E6%8F%8F%E8%BF%B0%E7%AC%A6%E5%8F%8A%E5%B1%9E%E6%80%A7%E7%89%B9%E6%80%A7%E8%A1%A5%E5%85%85%E9%83%A8%E5%88%86)：属性特性描述符的定义、对象属性的特性、Object与属性和属性特性相关的方法、JS对象三大特性（扩展、密封、冻结--级别逐渐升高）
+
+## JavaScript练习demo
+
+JavaScript练习demo：https://github.com/fuziwang/JS-advanced-lessons
+
+![](docs/images/demo.png)
+
 ## JavaScript项目demo
 
 + [2048游戏开发](https://github.com/fuziwang/JavaScript/tree/master/src/2048)
