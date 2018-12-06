@@ -48,9 +48,21 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
   + [对象访问器（访问器属性）的特性](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#%E5%AF%B9%E8%B1%A1%E8%AE%BF%E9%97%AE%E5%99%A8%E8%AE%BF%E9%97%AE%E5%99%A8%E5%B1%9E%E6%80%A7%E7%9A%84%E7%89%B9%E6%80%A7)：对象访问器（访问器属性）的特性、综合实例
   + [属性特性描述符以及属性特性补充部分](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#%E5%B1%9E%E6%80%A7%E7%89%B9%E6%80%A7%E6%8F%8F%E8%BF%B0%E7%AC%A6%E5%8F%8A%E5%B1%9E%E6%80%A7%E7%89%B9%E6%80%A7%E8%A1%A5%E5%85%85%E9%83%A8%E5%88%86)：属性特性描述符的定义、对象属性的特性、Object与属性和属性特性相关的方法、JS对象三大特性（扩展、密封、冻结--级别逐渐升高）
 
+
++ JavaScript继承
+  + JS对象及继承方式综述：JS对象知识回顾、JavaScript语言继承方式
+  + JS对象的原型链以及基于构造函数实现的原型继承
+  + 通过构造函数模拟类-类的继承
+  + JS继承补充部分：静态方法和原型方法的区别、再谈对象原型的`constructor`属性、对象的公有属性和私有属性
+
+
++ JavaScript `this`
+  + `JS this`简介及特点
+  + `JS this`的四种应用场景以及缺陷和解决方法
+
 ## JavaScript练习demo
 
-JavaScript练习demo：https://github.com/fuziwang/JS-advanced-lessons
+JavaScript练习`demo`：https://github.com/fuziwang/JS-advanced-lessons
 
 ![](docs/images/demo.png)
 
