@@ -50,13 +50,13 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
 
 
 + JavaScript继承
-  + JS对象及继承方式综述：JS对象知识回顾、JavaScript语言继承方式
-  + JS对象的原型链以及基于构造函数实现的原型继承
-  + 通过构造函数模拟类-类的继承
-  + JS继承补充部分：静态方法和原型方法的区别、再谈对象原型的`constructor`属性、对象的公有属性和私有属性
+  + [JS对象及继承方式综述](https://github.com/fuziwang/JavaScript/blob/master/docs/07%20JavaScript%20inherit.md#js%E5%AF%B9%E8%B1%A1%E5%8F%8A%E7%BB%A7%E6%89%BF%E6%96%B9%E5%BC%8F%E7%BB%BC%E8%BF%B0)：JS对象知识回顾、JavaScript语言继承方式
+  + [JS对象的原型链以及基于构造函数实现的原型继承](https://github.com/fuziwang/JavaScript/blob/master/docs/07%20JavaScript%20inherit.md#js%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%8E%9F%E5%9E%8B%E9%93%BE)
+  + [通过构造函数模拟类-类的继承](https://github.com/fuziwang/JavaScript/blob/master/docs/07%20JavaScript%20inherit.md#js%E5%AF%B9%E8%B1%A1-%E5%AF%B9%E8%B1%A1%E5%8E%9F%E5%9E%8B%E7%BB%A7%E6%89%BF)
+  + [JS继承补充部分](https://github.com/fuziwang/JavaScript/blob/master/docs/07%20JavaScript%20inherit.md#js%E7%BB%A7%E6%89%BF%E8%A1%A5%E5%85%85%E9%83%A8%E5%88%86)：静态方法和原型方法的区别、再谈对象原型的`constructor`属性、对象的公有属性和私有属性
 
 
-+ JavaScript `this`
++ [JavaScript this](https://github.com/fuziwang/JavaScript/blob/master/docs/08%20JavaScript%20this.md)
   + `JS this`简介及特点
   + `JS this`的四种应用场景以及缺陷和解决方法
 
