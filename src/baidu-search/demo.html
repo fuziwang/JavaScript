@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8"/>
+	<style type="text/css">
+		*{
+			padding:0px;
+			margin:0px;
+		}
+		img,input{
+			display: block;
+			margin: 0px auto;
+		}
+		#logo{
+			margin-top:150px;
+		}
+		#text{
+			margin-top:20px;
+			width: 540px;
+			height: 30px;
+		}
+		.menu{
+			display: none;
+			width:542px;
+			list-style: none;
+			border: 1px solid #333;
+			border-top:none;
+			margin:0px auto;
+			line-height: 30px;
+			text-indent: 10px;
+		}
+		.menu li{
+			cursor: pointer;
+		}
+		.menu li:hover{
+			background-color: #cecece;
+		}
+	</style>
+</head>
+<body>
+	<img src="logo.png" width="200" id="logo" />
+	<input type="" id="text" onkeyup="query(this)" value="">
+	<ul class="menu">
+	</ul>
+	<script type="text/javascript">
+		/*
+			需求：得到用户在文本框所输入的关键字 再根据关键字获取相对应的补全数据 最后在把数据渲染到页面中
+		*/
+		var oUl = document.querySelector('.menu');
+		function query(thisNode){
+			var val = thisNode.value;
+			var oScript = document.createElement('script');
+			oScript.src = "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=" + val +  "&cb=frewen";
+			document.body.appendChild(oScript);
+		}
+		function frewen(data){
+			oUl.innerHTML = "";
+			if(data.s.length == 0){
+				oUl.style.display = "none";
+				return;
+			}
+			oUl.style.display = 'block';
+			data.s.forEach((e)=>{
+				// 遍历
+				var oLi = document.createElement('li');
+				oLi.innerText = e;
+				oLi.onclick = function(){
+					window.location.href = 'https://www.baidu.com/s?wd=' + e;
+				}
+				oUl.appendChild(oLi);
+			});
+		}
+	</script>
+	<!-- <script src="https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=1&cb=frewen"></script> -->
+</body>
+</html>
