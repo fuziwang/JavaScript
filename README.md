@@ -6,7 +6,7 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
 
 ## JavaScript学习大纲
 
-#### [JavaScript简介](https://github.com/fuziwang/JavaScript/blob/master/docs/01%20JavaScript%20introduction.md)
+#### JavaScript简介
 
 + JavaScript定义、JavaScript特点、JavaScript基本用法
 
@@ -47,7 +47,7 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
 + [对象属性特性简介](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E7%89%B9%E6%80%A7%E7%AE%80%E4%BB%8B)
 + [对象属性（数据属性）的特性](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#%E5%AF%B9%E8%B1%A1%E5%B1%9E%E6%80%A7%E6%95%B0%E6%8D%AE%E5%B1%9E%E6%80%A7%E7%9A%84%E7%89%B9%E6%80%A7)：对象属性（数据属性）的特性、给对象添加属性
 + [对象访问器（访问器属性）的特性](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#%E5%AF%B9%E8%B1%A1%E8%AE%BF%E9%97%AE%E5%99%A8%E8%AE%BF%E9%97%AE%E5%99%A8%E5%B1%9E%E6%80%A7%E7%9A%84%E7%89%B9%E6%80%A7)：对象访问器（访问器属性）的特性、综合实例
-+ [属性特性描述符以及属性特性补充部分](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#%E5%B1%9E%E6%80%A7%E7%89%B9%E6%80%A7%E6%8F%8F%E8%BF%B0%E7%AC%A6%E5%8F%8A%E5%B1%9E%E6%80%A7%E7%89%B9%E6%80%A7%E8%A1%A5%E5%85%85%E9%83%A8%E5%88%86)：属性特性描述符的定义、对象属性的特性、Object与属性和属性特性相关的方法、JS对象三大特性（扩展、密封、冻结--级别逐渐升高）
++ [属性特性描述符以及属性特性补充部分](https://github.com/fuziwang/JavaScript/blob/master/docs/06%20JavaScript%20object.md#%E5%B1%9E%E6%80%A7%E7%89%B9%E6%80%A7%E6%8F%8F%E8%BF%B0%E7%AC%A6%E5%8F%8A%E5%B1%9E%E6%80%A7%E7%89%B9%E6%80%A7%E8%A1%A5%E5%85%85%E9%83%A8%E5%88%86)：属性特性描述符的定义、对象属性的特性、`Object`与属性和属性特性相关的方法、JS对象三大特性（扩展、密封、冻结--级别逐渐升高）
 
 #### JavaScript继承
 
@@ -60,6 +60,25 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
 
 + `JS this`简介及特点
 + `JS this`的四种应用场景以及缺陷和解决方法
+
+#### Array
+
++ 数组的创建和基本操作（增删改查）
+
++ 稀疏数组和多维数组
+
++ 数组的方法和相关高阶函数
+
+  ```txt
+  静态方法：Array.isArray()
+  实例方法
+  1. valueOf()，toString()
+  2. push()，pop()，shift()，unshift()，splice()
+  4. join()，concat()，reverse()，slice()，sort()
+  5. map()，forEach()，filter()，some()，every()
+  6. reduce()，reduceRight()
+  7. indexOf()，lastIndexOf()
+  ```
 
 ## JavaScript练习demo
 
