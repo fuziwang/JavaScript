@@ -67,7 +67,7 @@ JavaScript学习，该模块主要展示JavaScript相关学习资料，这些资
 
 + 稀疏数组和多维数组
 
-+ 数组的方法和相关高阶函数
++ [数组的方法和相关高阶函数](https://github.com/fuziwang/JavaScript/blob/master/docs/09%20Array.md#%E6%95%B0%E7%BB%84%E7%9A%84%E6%96%B9%E6%B3%95%E5%92%8C%E7%9B%B8%E5%85%B3%E9%AB%98%E9%98%B6%E5%87%BD%E6%95%B0)
 
   ```txt
   静态方法：Array.isArray()
